@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingeniería de Software</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <header>
+        <p>Soy el Header</p>
+    </header>
+
+    <main>
+        <section class="container">
+
+            <h1 class="form-title">Gestor de documentaión de Colaboradores</h1>
+
+           <form action="registro.php" class="form-container" method="POST" id="form">
+                <label class="input-box" for="name">
+                        <p class="paraphe">Nombre:</p>
+                        <input type="text" name="txtNombre" id="txtNombre" placeholder="ej* Daniel Caballero">
+                </label>
+
+                <label class="input-box" for="position"> <!-- Actualizar campo --> 
+                    <p class="paraphe">Apellido Materno:</p>
+                    <input type="text" name="txtApellidoMa" id="txtApellidoMa" placeholder="ej* Casa">
+                </label>
+
+                <label class="input-box" for="position">
+                        <p class="paraphe">Apellido Paterno:</p>
+                        <input type="text" name="txtApellidoPa" id="txtApellidoPa" placeholder="ej* Developer">
+                </label>
+
+                <label class="input-box" for="phone">
+                        <p class="paraphe">Fecha de Nacimiento:</p>
+                        <input type="date" name="txtFecha" id="txtFecha" placeholder="ej* 55-1618-2530">
+                </label>
+
+                <label class="input-box" for="email">
+                        <p class="paraphe">Estado Civil:</p>
+                        <input type="text" name="txtEstadoCivil" id="txtEstadoCivil" placeholder="ej* danielcaballero@outlook.com">
+                </label>
+
+                <label class="input-box" for="studies">
+                        <p class="paraphe">Sexo:</p>
+                        <select name="txtSexo" id="txtSexo">
+                        <option value="">Seleccione una Opcion</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                        </select>
+                </label>
+
+                <label class="input-box" for="experience"> <!-- Actualizar campo     -->
+                        <p class="paraphe">Nacionalidad:</p>
+                        <input type="text" name="txtNacionalidad" id="txtNacionalidad" placeholder="ej* Front-end en Google">
+                </label>
+                
+                <label class="input-box" for="experience"> <!-- Actualizar campo     -->
+                        <p class="paraphe">Telefono:</p>
+                        <input type="number" name="txtTelefono" id="txtTelefono" placeholder="ej* Front-end en Google">
+                </label>
+
+                <label class="input-box" for="experience"> <!-- Actualizar campo     -->
+                        <p class="paraphe">Movil:</p>
+                        <input type="number" name="txtMovil" id="txtMovil" placeholder="ej* Front-end en Google">
+                </label>
+
+                <label class="input-box" for="experience"> <!-- Actualizar campo     -->
+                        <p class="paraphe">Correo Electronico:</p>
+                        <input type="email" name="txtCorreo" id="txtCorreo" placeholder="ej* Front-end en Google">
+                </label>
+
+                <label class="input-box" for="experience"> <!-- Actualizar campo     -->
+                        <p class="paraphe">Direccion:</p>
+                        <input type="text" name="txtDireccion" id="txtDireccion" placeholder="ej* Front-end en Google">
+                </label>
+
+                <label class="input-box" for="experience"> <!-- Actualizar campo     -->
+                        <p class="paraphe">RFC:</p>
+                        <input type="text" name="txtRFC" id="txtRFC" placeholder="ej* Front-end en Google">
+                </label>
+
+                <label class="input-box" for="experience"> <!-- Actualizar campo     -->
+                        <p class="paraphe">CURP:</p>
+                        <input type="text" name="txtCURP" id="txtCURP" placeholder="ej* Front-end en Google">
+                </label>
+
+                <label class="input-box" for="experience"> <!-- Actualizar campo     -->
+                        <p class="paraphe">NSS:</p>
+                        <input type="text" name="txtNSS" id="txtNSS" placeholder="ej* Front-end en Google">
+                </label>
+
+                <label class="input-box text-box">
+                        <p class="paraphe">Comentarios sobre el Colaborador:</p>
+                        <textarea></textarea>
+                </label>
+
+                <div class="input-box">
+                    <button type="submit">Registrar</button>
+                </div>
+           </form>
+            
+        </section>
+    </main>
+    <script src="./Formulario/app.js"></script>
+</body>
+</html>
